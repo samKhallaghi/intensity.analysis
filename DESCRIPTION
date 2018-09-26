@@ -1,0 +1,17 @@
+Package: intensity.analysis
+Type: Package
+Title: Intensity of change for compairing categorical maps from sequential intervals.
+Version: 0.1.0
+Author: Robert Gilmore Pontius Jr. <rpontius@clarku.edu>, Sam Khallaghi <SKhallaghi@clarku.edu>
+Maintainer: Sam Khallaghi <SKhallaghi@clarku.edu>
+Description: Metrics of change intensity for category, transition and interval levels in categorical maps from sequential intervals.
+License: GPL (>= 2)
+Depends: R (>= 3.3.4)
+Imports: diffeR, ggplot2, raster, reshape2
+Encoding: UTF-8
+NeedsCompilation: no
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
